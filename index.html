@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Vendramini Music</title>
+    <link rel="stylesheet" href="css.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/2048px-Spotify_logo_without_text.svg.png"
+            alt="Spotify Logo"
+          />
+          <h1>Vendramini Music</h1>
+        </div>
+        <ul class="menu">
+          <li><a href="#">Início</a></li>
+          <li><a href="#">Explorar</a></li>
+          <li><a href="#">Biblioteca</a></li>
+          <li><a href="#">Favoritos</a></li>
+          <li><a href="#">Playlists</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section-banner">
+        <div class="hero fade-in">
+          <h1 class="text-Hero" >Descubra novas músicas.</h1>
+          <p class="text-Hero">Explore milhões de faixas em seu dispositivo favorito.</p>
+          <a href="#" class="btn btn-primary">Experimente grátis</a>
+        </div>
+      </section>
+
+      <section class="featured">
+        <div class="track">
+          <img
+            src="https://i.discogs.com/uzbHol1d8foLHgujbwSDRYPvs0E7gJ3LiSOrmeFNAbA/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5Njcx/MTQtMTQzNTAyMDk0/OC03MDcwLmpwZWc.jpeg"
+            alt="Track 1"
+          />
+          <div class="track-info">
+            <h3>Nenhum de Nós</h3>
+            <p>Camila Camila</p>
+            <p>Duração: 4:32</p>
+            <p>Gênero: Rock</p>
+          </div>
+        </div>
+        <div class="track">
+          <img
+            src="https://i1.sndcdn.com/artworks-000240865483-mxqnxi-t500x500.jpg"
+            alt="Track 2"
+          />
+          <div class="track-info">
+            <h3>Oh! Darling</h3>
+            <p>Beatles</p>
+            <p>Duração: 3:57</p>
+            <p>Gênero: Rock</p>
+          </div>
+        </div>
+        <div class="track">
+          <img
+            src="https://www.vagalume.com.br/matogrosso-mathias/discografia/vol-4-7.jpg"
+            alt="Track 3"
+          />
+          <div class="track-info">
+            <h3>Na Hora do Adeus</h3>
+            <p>Mato Grosso</p>
+            <p>Duração: 5:10</p>
+            <p>Gênero: Sertanejo</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="categories">
+        <h2>Categorias</h2>
+        <div class="category">
+          <img
+            src="data:image/png;base64,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"
+            alt="Category 1"
+          />
+          <div class="category-info">
+            <h3>Rock Roll</h3>
+            <p>
+              O rock 'n' roll é um gênero musical que teve origem nos Estados
+              Unidos (EUA) a partir dos anos 1950
+            </p>
+            <a href="#" class="btn btn-secondary">Ver Mais</a>
+          </div>
+        </div>
+        <div class="category">
+          <img
+            src="https://media.istockphoto.com/id/660603198/pt/vetorial/artistic-jazz-night-background-in-color.jpg?s=612x612&w=0&k=20&c=GJmJHjpQRWss0veCjvnE7zWEpMLmgjXYsNRNXGw1D8o="
+            alt="Category 2"
+          />
+          <div class="category-info">
+            <h3>Jazz</h3>
+            <p>
+              O jazz é um estilo musical que nasceu nos EUA na região de Nova
+              Orleans no final do século XIX e início do século XX.
+            </p>
+            <a href="#" class="btn btn-secondary">Ver Mais</a>
+          </div>
+        </div>
+        <div class="category">
+          <img
+            src="https://i.ytimg.com/vi/0CWUFzbXVJg/maxresdefault.jpg"
+            alt="Category 3"
+          />
+          <div class="category-info">
+            <h3>Pop</h3>
+            <p>
+              música popular, geralmente direcionada a uma audiência jovem, que
+              se caracteriza por pulsos rítmicos dançantes, pela repetição
+              sonora e letra de fácil memorização.
+            </p>
+            <a href="#" class="btn btn-secondary">Ver Mais</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Sobre Nós</h3>
+          <p>
+            Vendramini music para descobrir novas músicas e criar playlists
+            personalizadas.
+          </p>
+        </div>
+        <div class="footer-section">
+          <h3>Links Úteis</h3>
+          <ul>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Termos de Uso</a></li>
+            <li><a href="#">Política de Privacidade</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Siga-nos</h3>
+          <ul class="social-links">
+            <li>
+              <a href="#"
+                ><img
+                  src="https://cdn1.iconfinder.com/data/icons/social-media-set-for-free/32/facebook-512.png"
+                  alt="Facebook"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/512px-Logo_of_Twitter.svg.png?20220821125553"
+                  alt="Twitter"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="https://play-lh.googleusercontent.com/VRMWkE5p3CkWhJs6nv-9ZsLAs1QOg5ob1_3qg-rckwYW7yp1fMrYZqnEFpk0IoVP4LM"
+                  alt="Instagram"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p>&copy; 2023 Vendramini music. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
